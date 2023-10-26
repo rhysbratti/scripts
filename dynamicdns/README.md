@@ -1,6 +1,7 @@
 # The DNS-Updatarator
 
 This script was thrown together rather quickly to address an issue with my own homelab: a changing home IP address.
+This script is set up to be called from a CRON job that runs every 30 minutes
 
 Since I don't have a static IP address through my ISP, I have to accept the fact that my public IP is going to change every once in a while.
 The first time it happened, all of my services went down and I had a bit of a mess to clean up. This script addresses several issues I ran into:
