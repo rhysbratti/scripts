@@ -18,3 +18,8 @@ I use this in tandem with Fail2Ban to protect my public-facing services from any
 This is a tiny script I use every once in a while. It scrapes the log files for a specific IP and outputs the specific URLs that IP accessed.
 This can be a quick and helpful way to manually audit the access logs for suspicious activity. It also helps me keep an eye out for any URL patterns being used by malicious bots that I haven't blocked in Cloudflare.
 I've been meaning to move this into part of the daily IP audit flow listed above, but for now I just use it when I notice anything out of the ordinary.
+
+# The Login Notification tool
+
+This is another small but powerful script. If placed in the `/etc/profile.d/` directory, it sends a telegram notification (using the `send_telegram_notification.sh` script) whenver a user logs into the system.
+Its a great tool that helps keep peace of mind, knowing that nobody else is logging into my system but me.
