@@ -23,3 +23,7 @@ I've been meaning to move this into part of the daily IP audit flow listed above
 
 This is another small but powerful script. If placed in the `/etc/profile.d/` directory, it sends a telegram notification (using the `send_telegram_notification.sh` script) whenver a user logs into the system.
 Its a great tool that helps keep peace of mind, knowing that nobody else is logging into my system but me.
+
+# Send Telegram Notification Script
+
+Short but sweet, sends a Telegram message via Telegram bot to a group chat. You might have seen this one being used in other scripts here, I use it to keep up to date on what's happening on my machine. Very versitile and really easy to set up.
