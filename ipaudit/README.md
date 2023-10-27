@@ -1,4 +1,4 @@
-# The IP Audit Tool
+# The Get IP Access List tool
 
 This script is used to audit the Nginx Proxy Manager logs for new activity daily!
 It is called from a CRON job that runs every morning at 9am.
