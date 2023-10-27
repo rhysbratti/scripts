@@ -6,10 +6,9 @@ These two scripts are used in tandem to help get music that I've purchased from 
 My music server runs off of a headless Ubuntu Server VM, so I can't exactly browse for music and download it directly to the server. Instead, I use my laptop for the browsing, purchasing, and downloading process of the albums I want in FLAC format.
 
 The `copy_to_server.sh` script is on my laptop. It does the following:
-  1. Locates all zipped albums in the download music directory of my laptop
-  2. Copies them to the remote server
-  3. Deletes them off my laptop
-  4. Calls the `import_music_files.sh` script on the remote server
+  1. Copies all zipped albums in the download music directory of my laptop to the remote server
+  2. Calls the `import_music_files.sh` script on the remote server
+  3. Removes leftover fies from laptop
 
 The `import_music_files.sh` script is located on the remote server. It does the following:
   1. Locates all zipped albums in the directory the `copy_to_server.sh` script sends them
