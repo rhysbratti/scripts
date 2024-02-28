@@ -8,7 +8,7 @@ My music server runs off of a headless Ubuntu Server VM, so I can't exactly brow
 The `copy_to_server.sh` script is on my laptop. It does the following:
   1. Copies all zipped albums in the download music directory of my laptop to the remote server
   2. Calls the `import_music_files.sh` script on the remote server
-  3. Removes leftover fies from laptop
+  3. Removes leftover files from laptop
 
 The `import_music_files.sh` script is located on the remote server. It does the following:
   1. Locates all zipped albums in the directory the `copy_to_server.sh` script sends them
